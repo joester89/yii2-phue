@@ -1,0 +1,12 @@
+{
+    "name": "joester89/yii2-phue",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joey Claessen",
+            "email": "joey_claessen@hotmail.com"
+        }
+    ],
+    "require": {}
+}
