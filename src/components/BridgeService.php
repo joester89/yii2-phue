@@ -1,8 +1,8 @@
 <?php
 
-namespace Joester89\Yii2\PHue\components;
+namespace joester89\yii2\phue\components;
 
-use Joester89\Yii2\models\activeRecord\Bridge;
+use joester89\yii2\models\activeRecord\Bridge;
 use Phue\Client;
 
 /**

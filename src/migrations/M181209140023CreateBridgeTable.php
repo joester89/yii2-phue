@@ -1,6 +1,6 @@
 <?php
 
-namespace Joester89\Yii2\PHue\migrations;
+namespace joester89\yii2\phue\migrations;
 
 use yii\db\Migration;
 

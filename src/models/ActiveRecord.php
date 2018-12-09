@@ -1,6 +1,6 @@
 <?php
 
-namespace Joester89\Yii2\models;
+namespace joester89\yii2\models;
 
 use \yii\db\ActiveRecord as YiiActiveRecord;
 

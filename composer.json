@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Joester89\\Yii2\\PHue\\": "src/"
+            "joester89\\yii2\\phue\\": "src/"
         }
     }
 }
