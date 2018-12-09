@@ -18,6 +18,9 @@ class M181209140023CreateBridgeTable extends Migration
             'id' => $this->primaryKey(),
             'source_id' => $this->string()->notNull(),
             'name' => $this->string()->notNull(),
+            'ip_address' => $this->string()->notNull(),
+            'username' => $this->string(),
+            'status' => $this->integer()->notNull(),
             'created_at' => $this->string()>notNull(),
             'updated_at' => $this->string()->notNull()
         ]);

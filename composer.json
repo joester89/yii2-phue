@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "neoteknic/phue": "dev-master"
+        "neoteknic/phue": "dev-master",
+        "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
