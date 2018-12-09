@@ -2,11 +2,21 @@
     "name": "joester89/yii2-phue",
     "type": "yii2-extension",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Joey Claessen",
             "email": "joey_claessen@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.1",
+        "neoteknic/phue": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joester89\\Yii2\\PHue\\": "src/"
+        }
+    }
 }
