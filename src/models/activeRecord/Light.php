@@ -2,24 +2,20 @@
 
 namespace joester89\yii2\phue\models\activeRecord;
 
-use Joester89\Yii2\models\ActiveRecord;
-use yii\behaviors\TimestampBehavior;
-use yii\helpers\ArrayHelper;
+use joester89\yii2\models\ActiveRecord;
 
 /**
- * Class Bridge
- * @package Joester89\Yii2\models\activeRecord
- * 
+ * Class Light
+ * @package joester89\yii2\phue\models\activeRecord
+ *
  * @property int $id
  * @property string $source_id
  * @property string $name
- * @property string $ip_address
- * @property string $username
  * @property int $status
  * @property strint $created_at
  * @property string $updated_at
  */
-class Bridge extends ActiveRecord
+class Light extends ActiveRecord
 {
     /**
      * @return array

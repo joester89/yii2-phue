@@ -5,21 +5,19 @@ namespace joester89\yii2\phue\migrations;
 use yii\db\Migration;
 
 /**
- * Class M181209140023CreateBridgeTable
+ * Class M181209140024CreateLightTable
  */
-class M181209140023CreateBridgeTable extends Migration
+class M181209140024CreateLightTable extends Migration
 {
     /**
      * {@inheritdoc}
      */
     public function safeUp()
     {
-        $this->createTable('{{%bridge}}', [
+        $this->createTable('{{%light}}', [
             'id' => $this->primaryKey(),
             'source_id' => $this->string()->notNull(),
             'name' => $this->string()->notNull(),
-            'ip_address' => $this->string()->notNull(),
-            'username' => $this->string(),
             'status' => $this->integer()->notNull(),
             'created_at' => $this->string()->notNull(),
             'updated_at' => $this->string()->notNull()
@@ -31,6 +29,6 @@ class M181209140023CreateBridgeTable extends Migration
      */
     public function safeDown()
     {
-        $this->dropTable('{{%bridge}}');
+        $this->dropTable('{{%light}}');
     }
 }
